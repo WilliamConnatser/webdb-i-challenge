@@ -1,8 +1,10 @@
 # Database Queries
 
 ## find all customers that live in London. Returns 6 records.
+SELECT * FROM Customers where City = 'London' limit 6;
 
 ## find all customers with postal code 1010. Returns 3 customers.
+SELECT * FROM Customers where PostalCode = '1010' limit 3;
 
 ## find the phone number for the supplier with the id 11. Should be (010) 9984510.
 
